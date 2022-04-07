@@ -4,4 +4,6 @@ public class LecturerDepartment {
    private long lectureId;
    private int departmentId;
 
+   private LecturerDepartment(){}
+
 }
