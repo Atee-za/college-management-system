@@ -8,4 +8,5 @@ public interface IRepository <T, I>
     T get(I id);
     T update(T object);
     boolean remove(I id);
+
 }
